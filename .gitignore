@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+#bỏ qua các file thực thi
 *.exe
-*.out
-*.app
+#bỏ qua các file cấu hình của vscode
+*.json
+#bỏ qua chính file gitignore
+*.gitignore
+#bỏ qua các file chạy test
+*.bin
+#bỏ qua các file unit testing
+*tempCodeRunnerFile.cpp
